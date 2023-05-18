@@ -73,6 +73,13 @@ docker run --rm -it github-dependabot-alert-exporter:latest
 
 The script will retrieve all the Dependabot alerts for the specified organization and generate a CSV file named `dependabot_alerts_<current_date>.csv`.
 
+## Outputs and Exports
+A CSV export will be generated from this script and will be created in the `./export` directory:
+```shell
+ls -la export/
+
+```
+
 ## Development
 
 To set up the development environment and execute `pip install` commands for the requirements, follow these steps:
