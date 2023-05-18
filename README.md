@@ -15,7 +15,7 @@ This script retrieves Dependabot alerts from a GitHub organization and generates
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/finderau/sec-gh-dependabot-exporter
+   git clone https://github.com/marcel-last/sec-gh-dependabot-exporter
    ```
 
 2. Change to the project's directory:
