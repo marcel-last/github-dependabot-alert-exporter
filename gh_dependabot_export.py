@@ -64,7 +64,7 @@ with open(gh_dependabot_alerts_csv_path, 'w', newline='') as csvfile:
             cwe_ids_str = '\n'.join(str(cwe_id) for cwe_id in cwe_ids)
             cwe_names_str = '\n'.join(str(cwe_name) for cwe_name in cwe_names)
 
-            # check to ensure that the key exists
+            # Check to ensure that a key exists fonr `first_patched_version`
             first_patched_version = alert['security_vulnerability']['first_patched_version']
             first_patched_version_identifier = first_patched_version['identifier'] if first_patched_version else ''
 
