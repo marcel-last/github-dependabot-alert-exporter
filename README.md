@@ -21,7 +21,7 @@ This script retrieves Dependabot alerts from a GitHub organization and generates
 2. Change to the project's directory:
 
    ```shell
-   cd sec-gh-dependabot-exporter
+   cd github-dependabot-alert-exporter
    ```
 
 3. Install the required dependencies using pip:
@@ -67,8 +67,8 @@ python3 gh_dependabot_export.py
 ### Docker
 Build and run the Docker container using the following command:
 ```shell
-docker build -t sec-gh-dependabot-exporter:latest .
-docker run --rm -it sec-gh-dependabot-exporter:latest
+docker build -t github-dependabot-alert-exporter:latest .
+docker run --rm -it github-dependabot-alert-exporter:latest
 ```
 
 The script will retrieve all the Dependabot alerts for the specified organization and generate a CSV file named `dependabot_alerts_<current_date>.csv`.
