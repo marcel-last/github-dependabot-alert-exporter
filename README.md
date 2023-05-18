@@ -1,6 +1,6 @@
 # GitHub Dependabot Alerts Exporter
 
-This script retrieves Dependabot alerts from a GitHub organization and generates a CSV file containing the alert details. The alerts include information about security vulnerabilities in the organization's repositories.
+This script retrieves Dependabot alerts from a GitHub organization and generates an export containing the alert details. The alerts include information about security vulnerabilities in the organization's repositories.
 
 ## Prerequisites
 
