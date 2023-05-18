@@ -77,7 +77,13 @@ The script will retrieve all the Dependabot alerts for the specified organizatio
 A CSV export will be generated from this script and will be created in the `./export` directory:
 ```shell
 ls -la export/
+total 45280
+drwxr-xr-x   3 marcel  marcel        96 May 18 10:36 .
+drwxr-xr-x  14 marcel  marcel       448 May 18 10:28 ..
+-rw-r--r--   1 marcel  marcel  23180907 May 18 10:36 dependabot_alerts_2023_05_18.csv
 
+file export/dependabot_alerts_2023_05_18.csv 
+export/dependabot_alerts_2023_05_18.csv: CSV text
 ```
 
 ## Development
